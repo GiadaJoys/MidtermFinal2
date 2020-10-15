@@ -1,0 +1,198 @@
+*{
+box-sizing: border-box;
+font-family: 'Oxygen', sans-serif; 
+}
+
+html {
+    background-color: white
+}
+header{
+    width: inherit;
+    background-image: url(ASSETS/bruno-thethe-qyhLjwn6Gpc-unsplash-e1568039481585-1024x484.jpg);
+    background-blend-mode: soft-light;
+    
+}
+h1 {
+    font-size: 40pt;
+}
+h2 { 
+    font-size: 33pt;
+    color: #041282;
+}
+h3 { 
+      font-size: 20pt;
+      color: #041282;
+      max-width: 100%;
+      margin-bottom: 0px;
+      
+     
+}
+h4 { 
+    font-size: 14pt;
+}
+p {
+    font-size: 12pt;   
+}
+
+nav { 
+    float: right;
+}
+ul {
+    font-size: 20px;
+    float: right;
+    padding-top: 0px;
+    color: black;
+}
+
+hr {
+    width: 100%;
+    height: 6px;
+    background-color: #fca65e;
+    border: 0 none;
+    margin-top: 15px;
+    margin-bottom:10px;
+}
+
+.maincontainer{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-color: red;
+    border-radius: 6px; 
+    }
+.container1 {
+    box-sizing: 200px;
+    border: 1px;
+    border-color: #041282;
+    border-radius: 6px;     
+}
+.container2{
+    box-sizing: 200px;
+    border: 1px;
+    border-color: #041282;
+    border-radius: 6px;    
+}
+  .box{
+            float: left;
+            width: 200px;
+            height: 200px;
+            
+            
+        }
+
+  .box1{
+            float: right;
+            margin-right: 150px;
+            margin-top: 80px;
+            
+        }
+    
+  .box2{
+      margin-left: 300px;
+      align-content: center; 
+      width: 50%;
+      height: 25%;
+}
+
+.boxed {
+  box-shadow: 20px 5px 20px grey;
+  border: 1px solid blue;
+  border-radius: 6px;
+  background-color: #041282;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 50%;  
+    margin-left: 330px;
+    margin-top: 50px;
+}
+.boxed21 {
+  border: 2px solid #fca65e;
+  border-radius: 6px;
+  background-color: white;
+    font-family: sans-serif;
+    color: orange;
+    font-size: 20px;
+    width: 60%;  
+    margin-left: 0px; 
+    margin-top: 0px;
+}
+
+.boxedleft {
+  box-shadow: 20px 5px 20px grey;
+  border-radius: 6px;
+  background-color: #fca65e;
+  font-family: sans-serif;
+  color:#ffff ;
+  font-size: 20px;
+  text-align: center;
+  width: 80%; 
+  
+}
+
+.boxedright {
+  box-shadow: 10px 5px 20px grey;
+  border: 1px;
+  border-radius: 6px;
+  background-color: darkblue;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 80%;  
+}
+
+.boxed1 {
+  border: 1px solid blue;
+  border-radius: 6px;
+  background-color: white;
+  font-family: sans-serif;
+  color: darkblue;
+  font-size: 14px;
+  width: 20%;
+  float: left;
+}
+
+.sidebar{
+    margin-top: 10px;
+    width: 304px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 25px;
+    padding: 0px;
+    
+}
+
+.sidebar2{
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    margin-top: 50px;
+    
+}
+
+
+.maingrid{
+width:700px;
+height:900px;
+float: left;
+margin-right: 0px;
+margin-left: 0px;
+padding: 0px;
+margin-top: 40px;
+
+    }
+    
+.containercenter {
+float: center;
+margin-left: 650px;
+max-width: 300px;
+
+}   
+    
+    

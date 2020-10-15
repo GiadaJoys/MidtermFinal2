@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+<head>
+ <title>MIDTERM MMP240</title>
+    <link href= "main2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <style>
+        
+   .box{
+            float: left;
+            width: 200px;
+            height: 200px;    
+        }
+
+.boxedfilters {
+  box-sizing: content-box 20px;
+  border-radius: 6px;
+  background-color: white;
+  font-family: sans-serif;
+  color: orange;
+  font-size: 30px;
+  width: 50%;  
+  margin-top: 10px; 
+        }
+    
+    .boxorange{
+  box-shadow: 10px 5px 20px grey;
+  background-color: #fca65e;
+  border-radius: 6px;
+  align-content: center;
+  align-self: center;
+  width: 200px;
+  height: 700px;
+  border: 1px solid #fca65e;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 50px; 
+  margin-top: 70px;
+  float: left;
+}
+  .rowcontainer {
+    float: left
+} 
+    .itemcontainer {
+    box-shadow: 15px 5px 20px grey;
+    border-radius: 6px;
+    float: left; 
+    width: 200px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 50px;    
+}    
+ .boxed1c {
+  border: 1px solid #041282;
+  border-radius: 6px;
+  background-color: #041282;
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+  width: 80%; 
+  height: 20px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 5px;
+} 
+.boxed2c {
+  font-family: sans-serif;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  width: 50%;
+  margin-left: 100px;
+  float: left;
+  
+}
+        
+    </style>
+    </head>
+    <body>
+        
+        <header>
+            <div class="box">
+               <a href="index.html"> <img src="ASSETS/smalllogo.png" alt="logo official" 
+                                          style="width: 150px; height: 100 px; margin-left: 50px; margin-top: 40px;"></a>
+            </div>
+            <div class="boxed2c">
+             <h3 style="margin-top: 120px;">Apartments and Housing for Rent</h3>
+                    <div class="boxed21">
+                Search apartments / housing for rent
+                </div>
+             </div>
+             
+                  
+        <hr>
+    </header>
+        
+        <div class="maincontainer">
+          <div class="sidebar">
+              <div class="boxorange">
+                    <form style="color: white">
+                         <div class="boxedfilters" style="margin-bottom: 30px;">
+                          Filters
+                          </div> 
+                    <div>
+                        <div>
+                          <label>
+                              <input type="radio" name="gdr" value="search">
+                              search titles only
+                              </label>
+                                    </div>
+                <div>
+                    <label>
+                        <input type="radio" name="gdr" value="search">
+                               has image
+                 </label>
+                                    </div>
+            <div>
+                <label>
+                        <input type="radio" name="gdr" value="search">
+                              posted today
+                 </label>
+                                    </div>
+                    <div>               
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              bundle duplicates
+                         </label>
+                            </div>
+                    <div>
+                        <label >
+                        <input type="radio" name="gdr" value="search">
+                              include nearby areas
+                 </label>
+                        </div>
+                <div style="margin-top: 10px">
+                    <label>
+                        MILES FROM ZIP<br>
+                    <input type="text" name="In">
+                </label>
+                                    </div>
+                <div>
+                    <label>
+                        PRICE<br>
+                    <input type="text" name="In">
+                </label>
+                                    </div>
+                <div>
+                    <label>
+                        BEDROOMS<br>
+                    <input type="text" name="In">
+                </label>
+                                    </div>
+                <div>                    
+                <label>BATHROOMS<br>
+                    <input type="text" name="In">
+                    </label>
+                        </div>
+            <div>                    
+                <label>FT2<br>
+                    <input type="text" name="In">
+                    </label>
+                        </div>
+                <div>                    
+                <label>AVAILABILITY<br>
+                    <input type="text" name="In">
+                    </label>
+                        </div>
+                <div style="margin-top: 15px">
+                          <label>
+                              <input type="radio" name="gdr" value="search">
+                               cats ok
+                              </label>
+                                    </div>
+                <div>
+                    <label>
+                        <input type="radio" name="gdr" value="search">
+                               dogs ok
+                 </label>
+                                    </div>
+            <div>
+                <label>
+                        <input type="radio" name="gdr" value="search">
+                              furnished
+                 </label>
+                                    </div>
+                    <div>               
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              no smoking
+                         </label>
+                            </div>
+                    <div>
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              wheelchair access
+                 </label>
+                        </div>
+                    <div>
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              EV charging
+                 </label>
+                         </div>
+                    <div>
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              no application fee
+                 </label>
+                         </div>
+                <div>
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              no broker fee
+                 </label>
+                         </div>
+                    <div>
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              housing type
+                 </label>
+                         </div>
+                    <div>
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              laundry
+                 </label>
+                         </div>
+                     <div>
+                        <label>
+                        <input type="radio" name="gdr" value="search">
+                              parking
+                 </label>
+                         </div>
+                           </div>
+                             </form>
+                        </div>
+            
+            </div>
+        <div class="maingrid">
+            <div class="maincontainer">
+                <div class="rowcontainer">
+                   <a href="apartment.html"> <div class="itemcontainer">
+                        <img src="ASSETS/apt1.jpg" alt="rent" style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                         <div class="boxed1c">
+                       Oct 16 NO FEE Studio Apt
+                       </div> 
+                        <div style="font-size: 12px; color: darkblue; margin-top: 10px; margin-left: 5px;margin-bottom: 5px">
+                       1 bedroom, 1 bathroom apartment inside a mid-rise Parisian style
+                        </div>
+                        <div class="boxed2c">
+                           $1245
+                           </div>
+                       </div> 
+                    </a>
+                    <a href="apartment.html">
+                        <div class="itemcontainer">
+                        <img src="ASSETS/apt2.jpg" alt="rent 2" style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                             <div class="boxed1c" >
+                            Oct 20 One bedroom Apt
+                       </div>
+                         <div style="font-size: 12px; color: darkblue; margin-top: 10px; margin-left: 5px;margin-bottom: 5px">
+                       1 bedroom, 1 bathroom apartment Midtowm West
+                        </div>
+                        <div class="boxed2c">
+                           $1545
+                           </div>
+                     </div>
+                    </a>    
+                    <a href="apartment.html">
+                        <div class="itemcontainer">
+                        <img src="ASSETS/apt3.jpg" alt="rent 3"style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                              <div class="boxed1c">
+                           Mid-Nov NO FEE Studio Apt
+                       </div> 
+                         <div style="font-size: 12px; color: darkblue; margin-top: 10px; margin-left: 5px;margin-bottom: 5px">
+                       3 bedroom, 3 bathroom apartment FiDi
+                        </div>
+                        <div class="boxed2c">
+                           $1850
+                           </div>
+                           </div>
+                    </a>
+                        </div>
+                 <div class="rowcontainer">
+                    <a href="apartment.html">
+                     <div class="itemcontainer">
+                        <img src="ASSETS/apt4.jpg" alt="Apt 4"  style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                              <div class="boxed1c">
+                            Dec 1st NO FEE Studio Apt
+                       </div> 
+                     <div style="font-size: 12px; color: darkblue; margin-top: 10px; margin-left: 5px;margin-bottom: 5px">
+                       1 bedroom, 1 bathroom apartment inside a Midtown East
+                        </div>
+                        <div class="boxed2c">
+                           $1100
+                           </div>
+                     </div>
+                    </a>
+                    <a href="apartment.html">
+                     <div class="itemcontainer">
+                        <img src="ASSETS/apt5.jpg" alt="Apt 5" style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                             <div class="boxed1c">
+                           Nov 15 Two Bedrooms Apt
+                       </div>
+                     <div style="font-size: 12px; color: darkblue; margin-top: 10px; margin-left: 5px;margin-bottom: 5px">
+                       2 bedroom, 2 bathroom apartment Financial District
+                        </div>
+                        <div class="boxed2c">
+                           $1450
+                        </div>
+                     </div>
+                     </a>
+                <a href="apartment.html">
+                    <div class="itemcontainer">
+                        <img src="ASSETS/apt6.jpg" alt="Apt 6" style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                             <div class="boxed1c">
+                               Sep 16 NO FEE Studio Apt
+                              </div>
+                         <div style="font-size: 12px; color: darkblue; margin-top: 10px;margin-left: 5px;margin-bottom: 5px">
+                       1 bedroom, 1 bathroom apartment inside a mid-rise Parisian style
+                        </div>
+                        <div class="boxed2c">
+                           $1245
+                           </div>
+                        </div>
+                     </a>
+                   
+                <div class="rowcontainer">
+                <a href="apartment.html">    
+                    <div class="itemcontainer">
+                        <img src="ASSETS/images-2%20copy.jpg" alt= "Apt 7" style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                              <div class="boxed1c">
+                           Oct 31 3 beds, 2bath Apt
+                       </div>
+                         <div style="font-size: 12px; color: darkblue; margin-top: 10px; margin-left: 5px;margin-bottom: 5px">
+                       3 bedroom, 2 bathroom apartment, masterbedroom/private bathroom
+                        </div>
+                        <div class="boxed2c">
+                           $1900
+                        </div>
+                     </div>
+                    </a>
+                <a href="apartment.html">
+                    <div class="itemcontainer">
+                        <img src="ASSETS/download.jpg" alt="Apt 8" style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                              <div class="boxed1c">
+                             Nov 15 NO FEE 1 Bed
+                       </div>
+                        <div style="font-size: 12px; color: darkblue; margin-top: 10px;margin-left: 5px;margin-bottom: 5px">
+                       1 bedroom, 1 bathroom apartment high-rise building
+                        </div>
+                        <div class="boxed2c">
+                           $1400
+                        </div>
+                     </div>
+                    </a>
+                <a href="apartment.html">
+                    <div class="itemcontainer">
+                        <img src="ASSETS/download-1.jpg" alt="Apt 9" style="width: 170px; height: 120px; margin-top: 15px;margin-left: 15px">
+                              <div class="boxed1c">
+                             Nov 30 1 bed West Harlem
+                             </div>
+                         <div style="font-size: 12px; color: darkblue; margin-top: 10px; margin-left: 5px;margin-bottom: 5px">
+                       1 bedroom, 1 bathroom apartment inside a mid-rise Parisian style
+                          </div>
+                        <div class="boxed2c">
+                           $1145
+                        </div>
+                           </div>
+                        </a>
+                    </div>
+                
+              </div>
+            </div>  
+          </div>
+        
+        <div class="sidebar2" style="margin-top: 30px">
+            <h3>Map View</h3>
+              <img src="ASSETS/bf3960d166a5dae1db9340c8a80bc85f.png"; alt="map" style= "width: 250px; height: 300px;box-shadow: 15px 5px 20px grey;">
+           </div>
+        
+        </div>
+        
+        
+       
+        
+      
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
